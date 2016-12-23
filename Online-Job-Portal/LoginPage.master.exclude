@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage2.master" AutoEventWireup="true" CodeFile="LoginPage.master.cs" Inherits="LoginPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link type="text/css" rel="stylesheet" href="css/LoginPageMaster.css" />
+<style type="text/css">
+
+/*#form_container {
+    border: 3px solid #f1f1f1;
+}
+
+#txtLoginUsername, #txtLoginPassword {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#btnLoginSubmit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}*/
+
+    </style>
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+    <h2>Login To Your Account</h2>
+
+<div id="form_container">
+
+  <div class="container">
+    <%--<label><b>Username</b></label>--%>
+      <asp:Label ID="lblLoginUserName" Text="Username: " runat="server" Font-Size="Medium"></asp:Label>
+      <asp:TextBox ID="txtLoginUsername" Font-Size="Medium" runat="server" ></asp:TextBox>
+    <%--<input type="text" placeholder="Enter Username" name="uname" required>--%>
+
+      <br />
+
+      <asp:Label ID="lblLoginPassword" Text="Password: " runat="server" Font-Size="Medium"></asp:Label>
+      <asp:TextBox ID="txtLoginPassword" Font-Size="Medium" runat="server" TextMode="Password"></asp:TextBox>
+      <br />
+    <%--<label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>--%>
+      <asp:Button ID="btnLoginSubmit" runat="server" Text="Log In"  />
+</div>
+
+  <div class="container" style="background-color:#f1f1f1">
+        
+  </div>
+</div>
+
+</asp:Content>
+

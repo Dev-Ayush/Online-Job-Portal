@@ -1,0 +1,27 @@
+SOLVED
+javascript error = DONE
+job_status[checkbox] = DONE
+currently_working[checkbox] = DONE
+dropwdown list index going = DONE
+domain[dropwdown] = DONE
+apply_domain[dropwdown] = DONE
+DatePicker = SOLVED
+restrict file type = SOLVED
+prevent refresh ob resume upload = SOLVED
+Password field going blank = SOLVED
+"Password Incorrect msg" still - data getting inserted in db = SOLVED
+Designer Panel Loading for creating recruiter Table = SOLVED
+photo name not going = SOLVED
+Move Photo to folder = SOLVED
+Move Resume to folder = SOLVED
+Success msg of Recruiter_Login Not Displaying = SOLVED
+
+PROBLEM
+
+Encrypt Password = NOT SOLVED
+DatePicker Not Working on Profile Page = NOT SOLVED
+Disable read Only on Single Click = NOT SOLVED
+Menu Page On every Page = NOT SOLVED
+Populate Data on Profile Update Page = NOT SOLVED
+
+

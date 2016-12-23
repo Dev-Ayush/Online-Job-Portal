@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Job Portal</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="css/MasterPage_StyleSheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <header id="header1">
+            <h1>Welcome To Online Job Portal</h1>
+        </header>
+        <nav id="NavMenu">
+            <ul>
+                <li><a href="#">Job</a>
+                    <ul>
+                        <li>All Job</li>
+                        <li>Search Job</li>
+                    </ul>
+                </li>
+                <li><a href="#">Recruiter</a>
+                    <ul>
+                        <li>View Recruiters</li>
+                        <li>Recruiters Login</li>
+                        <li>New Recruiters</li>
+                    </ul>
+                </li>
+                <li><a href="#">Companies</a></li>
+                
+                <li><a href="#">Job Seeker</a>
+                    <ul>
+                        <li>Job Seeker Login</li>
+                        <li>New Job Seeker</li>
+                    </ul>
+                </li>
+                <li><a href="#">Admin</a></li>
+            </ul>
+        </nav>
+        
+        <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

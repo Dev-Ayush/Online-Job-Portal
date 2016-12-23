@@ -1,0 +1,20 @@
+﻿#Information_Panel {
+    border: solid;
+}
+
+td {
+    letter-spacing: 5px;
+}
+
+#panel_menu {
+    float: right;
+    text-align: right;
+    background-color: green;
+}
+
+#SignOutButton {
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;
+    height: 18px;
+}

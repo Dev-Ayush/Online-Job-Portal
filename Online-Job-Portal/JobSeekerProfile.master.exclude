@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage2.master" AutoEventWireup="true" CodeFile="JobSeekerProfile.master.cs" Inherits="JobSeekerProfile" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+     <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/JqueryUI/jquery-1.10.2.js"></script>
+	<script src="Scripts/JqueryUI/jquery-ui.js"></script>
+	<link rel="stylesheet" href="Scripts/JqueryUI/jquery-ui.css"></link>
+
+    <style>
+        #Information_Panel{
+            border:solid;
+        }
+        td{
+            letter-spacing:5px;
+        }
+        #panel_menu{
+            float:right;
+            text-align:right;
+            background-color:green;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+    <div id="panel_menu">
+    <ul class="nav" style="color:aqua;">
+        <li>
+            <a href="#">My Account</a>
+            <ul>
+                <li><a href="JobSeekerProfilePage.aspx">Profile</a></li>
+                <li><a href="#">Change Password</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#" id="lg">LogOut</a></li>
+            </ul>
+        </li>
+    </ul>
+        </div>
+
+</asp:Content>
+
